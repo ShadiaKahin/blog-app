@@ -1,0 +1,62 @@
+.create-post-page {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+}
+
+.create-post-container {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post-container h1 {
+    text-align: center;
+}
+
+.create-post-container label {
+    font-size: 25px;
+}
+
+.create-post-container .input-group {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input,
+.input-group textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.input-group input {
+    height: 40px;
+}
+
+.input-group textarea {
+    height: 150px;
+}
+
+.create-post-container button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input,
+textarea {
+    margin-top: 5px;
+}
+
