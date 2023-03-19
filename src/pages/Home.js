@@ -21,7 +21,8 @@ function Home({ isAuth }) {
     }, [deletePost]);
 
     return (
-        <div className="home-page">
+        isAuth && auth.currentUser.uid && 
+            <div className="home-page">
             {postLists.map((post) => {
                 return (
                     <div className="post">
@@ -48,6 +49,7 @@ function Home({ isAuth }) {
                 );
             })}
         </div>
+        
     );
 }
 
